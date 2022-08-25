@@ -15,7 +15,7 @@ It exposes two ports:
 -   1883 -> MQTT Default Port
 -   8080 -> HiveMQ Webinterface (Management and Metrics)
 ```
-docker run -p 8080:8080 -p 1883:1883 -name hivemq hivemq/hivemq4
+docker run -p 8080:8080 -p 1883:1883 --name hivemq hivemq/hivemq4
 ```
 
 ### 2. Compile Java Projects
